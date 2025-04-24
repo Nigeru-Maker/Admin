@@ -6,7 +6,17 @@ body {
   background: linear-gradient(45deg, #5b3b00, #3a004d);
   background-size: 200% 200%;
   animation: gradientMove 6s infinite alternate;
+      animation: gradientMove 6s infinite alternate;
 }
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
 nav {
   background-color:#777;
   color: white;
